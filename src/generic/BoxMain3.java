@@ -14,6 +14,13 @@ public class BoxMain3 {
         stringBox.set("hello");
         System.out.println("str = " + stringBox.get());
 
+        //원하는 모든 타입 사용 가능
+        GenericBox<Double> doubleBox = new GenericBox<Double>();
+        doubleBox.set(10.5);
+        System.out.println("Double = "+doubleBox.get());
+
+        //타입 추론: 생성하는 제네릭 타입 생략 가능
+         GenericBox<Integer> integerBox2 = new GenericBox<>();
     }
 
 }
