@@ -8,7 +8,9 @@ public class Animal {
     public Animal(String name, int size) {
         this.name = name;
         this.size = size;
+        System.out.println("난 애니멀");
     }
+
 
     public String getName() {
         return name;
@@ -19,7 +21,7 @@ public class Animal {
     }
 
     public void sound(){
-        System.out.println("동물 욺음 소리");
+        System.out.println("동물 울음 소리");
     }
 
     @Override
