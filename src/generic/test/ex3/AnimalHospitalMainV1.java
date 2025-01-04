@@ -28,10 +28,10 @@ public class AnimalHospitalMainV1 {
         dogHospital.set(dog);
         //Animal animal = dogHospital.bigger(new Dog("멍멍이2", 200)); 타입이 animal이기 때문에 animal로 받아야함;
         //Dog로 받기 위해선 다운캐스팅을 해야됨
-        Dog biggerDog = (Dog)dogHospital.bigger(new Dog("멍멍이2", 200));
-        Cat biggerCat = (Cat)dogHospital.bigger(new Cat("냐옹이2", 500));
+        //Dog biggerDog = (Dog)dogHospital.bigger(new Dog("멍멍이2", 200));
+        //Cat biggerCat = (Cat)dogHospital.bigger(new Cat("냐옹이2", 500));
 
-        System.out.println("biggerDog=" + biggerDog);
-        System.out.println("biggerCat=" + biggerCat);
+        //System.out.println("biggerDog=" + biggerDog);
+        //System.out.println("biggerCat=" + biggerCat);
     }
 }
